@@ -1,0 +1,7 @@
+{
+  "name": "Ionic-React-Personal-Portfolio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
