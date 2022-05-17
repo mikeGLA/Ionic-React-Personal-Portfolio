@@ -1,5 +1,14 @@
-.HomeIndex{
+.HomeBody{
     text-align: center;
+    height: 100%;
+    margin-top: -20px;
+    background: rgb(17,85,136);
+    background: linear-gradient(183deg, rgba(17,85,136,1) 18%, rgba(12,124,172,1) 39%, rgba(7,160,205,1) 67%, rgba(0,212,255,1) 100%);
+}
+
+.Body-Index > h1{
+    padding-top: 20px;
+    margin-bottom: 25px;
 }
 
 .HomeNav-Flex{
@@ -15,4 +24,15 @@
 .HomeNav-Flex > div{
     margin: auto;
     font-weight: bold;
+}
+
+.Introduction-Box{
+    border: 1px solid #0f4db8;
+    margin-top: 30px !important;
+    margin: auto;
+    width: 1000px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }

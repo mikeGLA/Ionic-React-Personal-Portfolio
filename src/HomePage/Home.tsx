@@ -18,18 +18,26 @@ const Home: React.FC = () => {
   return (
     <IonApp>
       <IonPage>
-        <IonContent className="HomeIndex" fullscreen>
-          <IonHeader className="HomeNav-Flex">
+        <IonHeader className="HomeNav-Flex">
             <div>Biography</div>
             <div>Education & Skill</div>
             <div>Experience</div>
-          </IonHeader>
-          <h1>welcome to my Portfolio</h1>
+        </IonHeader>
+        <IonContent fullscreen>
           <div className="HomeBody">
-            <div className="MyPic">
-              <img src={ProPic} width="350px" height="400px" />
+            <div className="Body-Index">
+              <h1>welcome to my Portfolio</h1>
+              <div className="MyPic">
+                <img src={ProPic} width="350px" height="400px" />
+              </div>
+              <div className="Introduction-Box">
+                <div>aa</div>
+                <div>bb</div>
+                <div>cc</div>
+                <div>dd</div>
+                <div>ee</div>
+              </div>
             </div>
-            <div></div>
           </div>
         </IonContent>
       </IonPage>
