@@ -13,15 +13,18 @@ import {
 } from "@ionic/react";
 import "./Home.css";
 import ProPic from "../img/propic.jpg"
+import { useState } from "react";
 
 const Home: React.FC = () => {
+
+  const [biographyBut, setbiographyBut] = useState("")
   return (
     <IonApp>
       <IonPage>
         <IonHeader className="HomeNav-Flex">
-            <div>Biography</div>
-            <div>Education & Skill</div>
-            <div>Experience</div>
+            <div className="NavBiography"><p>Biography</p></div>
+            <div className="NavEducate"><p>Education & Skill</p></div>
+            <div className="NavExperience"><p>Experience</p></div>
         </IonHeader>
         <IonContent fullscreen>
           <div className="HomeBody">

@@ -6,13 +6,29 @@
     background: linear-gradient(45deg, rgb(93, 179, 219) 18%, rgb(65, 152, 189) 39%, rgba(85, 198, 233, 0.918) 67%, rgba(0,212,255,1) 95%);
 }
 
+.NavBiography-selected{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.NavEducate-selected{
+    background-color: white;
+    border-radius: 10px;
+}
+.NavExperience-selected{
+    background-color: white;
+    border-radius: 10px;
+}
+
 .Body-Index > h1{
     padding-top: 20px;
     margin-bottom: 25px;
 }
 
 .HomeNav-Flex{
+    text-align: center;
     display: flex;
+    /* border: 1px solid red; */
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
