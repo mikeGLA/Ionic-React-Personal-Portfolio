@@ -1,0 +1,34 @@
+.HomeNav-Flex{
+    text-align: center;
+    display: flex;
+    border: 1px solid red;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 350px;
+    height: 50px;
+    background-image: linear-gradient(100deg, #6973ff , #5e9fff, #56afff);
+}
+
+.HomeNav-Flex > button{
+    margin: auto;
+    font-weight: bold;
+    background-color: rgb(225,225,225,0);
+}
+
+/* -----On Change for Nav button --------- */
+
+.NavBiography-selected{
+    background-color: white !important;
+    border-radius: 10px;
+}
+
+.NavEducate-selected{
+    background-color: white !important;
+    border-radius: 10px;
+}
+
+.NavExperience-selected{
+    background-color: white !important;
+    border-radius: 10px;
+}

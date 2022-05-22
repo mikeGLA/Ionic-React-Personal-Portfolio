@@ -17,21 +17,23 @@ import { useState } from "react";
 
 const Home: React.FC = () => {
 
-  const [biographyBut, setbiographyBut] = useState("")
+  // const [biographyBut, setbiographyBut]:any = useState("NavBiography-selected")
+  // const [educateBut, seteducateBut] = useState("NavEducate")
+  // const [experienceBut, setexperienceBut] = useState("NavExperience")
   return (
     <IonApp>
       <IonPage>
-        <IonHeader className="HomeNav-Flex">
-            <div className="NavBiography"><p>Biography</p></div>
-            <div className="NavEducate"><p>Education & Skill</p></div>
-            <div className="NavExperience"><p>Experience</p></div>
-        </IonHeader>
+        {/* <IonHeader className="HomeNav-Flex">
+            <button className={biographyBut} onClick={() => {setbiographyBut("NavBiography-selected"); seteducateBut("NavEducate"); setexperienceBut("NavExperience")}}><p>Biography</p></button>
+            <button className={educateBut} onClick={()=> {setbiographyBut("NavBiography"); seteducateBut("NavEducate-selected"); setexperienceBut("NavExperience")}}><p>Education & Skill</p></button>
+            <button className={experienceBut} onClick={()=> {setbiographyBut("NavBiography"); seteducateBut("NavEducate"); setexperienceBut("NavExperience-selected")}}><p>Experience</p></button>
+        </IonHeader> */}
         <IonContent fullscreen>
           <div className="HomeBody">
             <div className="Body-Index">
               <h1>welcome to my Portfolio</h1>
               <div className="MyPic">
-                <img src={ProPic} width="350px" height="400px" />
+                <img width="350px" height="400px" />
               </div>
               <div className="IntroductionBox">
                 <div className="IntroductionBox-Subject">
