@@ -21,7 +21,7 @@ const Home: React.FC = () => {
   // const [educateBut, seteducateBut] = useState("NavEducate")
   // const [experienceBut, setexperienceBut] = useState("NavExperience")
   return (
-    <IonApp>
+    <>
       <IonPage>
         {/* <IonHeader className="HomeNav-Flex">
             <button className={biographyBut} onClick={() => {setbiographyBut("NavBiography-selected"); seteducateBut("NavEducate"); setexperienceBut("NavExperience")}}><p>Biography</p></button>
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
                   <div>Git</div>
                 </div>
                 <div className="IntroductionBox-Data">
-                  <div>Thanapol Chinkangwanwong (Mike)</div>
+                  <div>Mr. Thanapol Chinkangwanwong (Mike)</div>
                   <div>95/1 Moo 3, Tambon Chaisatharn, Amphoe Saraphi, Chiang Mai, Thailand, 50140.</div>
                   <div>thanapol.chinkangwanwong@gmail.com / 0834784611</div>
                   <a href="https://github.com/mikeGLA" target="_blank" rel="noopener noreferrer">https://github.com/mikeGLA</a>
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
           </div>
         </IonContent>
       </IonPage>
-    </IonApp>
+    </>
   );
 };
 
