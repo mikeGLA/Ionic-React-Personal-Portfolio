@@ -5,3 +5,60 @@
     background: rgb(17,85,136);
     background: linear-gradient(45deg, rgb(93, 179, 219) 18%, rgb(65, 152, 189) 39%, rgba(85, 198, 233, 0.918) 67%, rgba(0,212,255,1) 95%);
 }
+
+.Education-Body > h1{
+    padding-top: 20px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+}
+
+.Timeline-Index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 500px;
+}
+
+.Timeline-Education{
+    border: 1px solid red;
+    width: 500px;
+}
+
+.Left-Timeline-Slider{
+    margin: 20px;
+    border: 1px solid orange;
+    height: 400px;
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* .Left-Timeline-Slider{
+    margin: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.Timeline-Skill{
+    border: 1px solid blue;
+    width: 500px;
+}
+
+.Right-Timeline-Slider{
+    border: 1px solid green;
+    height: 400px;
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

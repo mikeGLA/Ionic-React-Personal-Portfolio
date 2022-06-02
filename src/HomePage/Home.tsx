@@ -31,9 +31,9 @@ const Home: React.FC = () => {
         <IonContent fullscreen>
           <div className="HomeBody">
             <div className="Body-Index">
-              <h1>welcome to my Portfolio</h1>
+              <h1>Welcome To My Portfolio</h1>
               <div className="MyPic">
-                <img width="350px" height="400px" />
+                <img src={ProPic} width="350px" height="400px" />
               </div>
               <div className="IntroductionBox">
                 <div className="IntroductionBox-Subject">
