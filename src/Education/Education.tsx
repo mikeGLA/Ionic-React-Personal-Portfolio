@@ -1,6 +1,14 @@
-import { IonApp, IonContent, IonPage } from '@ionic/react'
+import { IonApp, IonContent, IonIcon, IonPage } from '@ionic/react'
 import React from 'react'
 import "./Education.css"
+import HTMLLogo from "../img/logo/html-5.png"
+import CSSLogo from "../img/logo/css-3.png"
+import JSLogo from "../img/logo/java-script.png"
+import ReactLogo from "../img/logo/react.png"
+import IONLogo from "../img/logo/Ionic.png"
+import PTLogo from "../img/logo/physical.png"
+import DARALogo from "../img/logo/Dara.jpg"
+import CMULogo from "../img/logo/cmu.png"
 
 const Education = () => {
   return (
@@ -42,6 +50,10 @@ const Education = () => {
                                         </li>
                                     </ul>
                                 </div>
+                                <div className='Skill-Image'>
+                                    <img src={DARALogo} width="80px" height="80px" />
+                                    <img src={CMULogo} width="80px" height="80px" />
+                                </div>
                             </div>
                             <div className='Timeline-Skill'>
                                 <div className='Right-Timeline-Slider'>
@@ -57,10 +69,19 @@ const Education = () => {
                                                 <li>HTML</li>
                                                 <li>CSS</li>
                                                 <li>JavaScript</li>
+                                                <li>ReactJS</li>
                                                 <li>Ionic Framework</li>
                                             </ul>
                                         </li>
                                     </ul>
+                                </div>
+                                <div className='Skill-Image'>
+                                    <img src={HTMLLogo} width="50px" height="50px" />
+                                    <img src={CSSLogo} width="50px" height="50px" />
+                                    <img src={JSLogo} width="50px" height="50px" />
+                                    <img src={ReactLogo} width="50px" height="50px" />
+                                    <img src={IONLogo} width="50px" height="50px" />
+                                    <img src={PTLogo} width="70px" height="50px" />
                                 </div>
                             </div>
                         </div>
