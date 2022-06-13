@@ -45,7 +45,7 @@ const Home: React.FC = () => {
                 <div className="IntroductionBox-Data">
                   <div>Mr. Thanapol Chinkangwanwong (Mike)</div>
                   <div>95/1 Moo 3, Tambon Chaisatharn, Amphoe Saraphi, Chiang Mai, Thailand, 50140.</div>
-                  <div>thanapol.chinkangwanwong@gmail.com / 0834784611</div>
+                  <div>thanapol.chinkangwanwong@gmail.com / +6683-478-4611</div>
                   <a href="https://github.com/mikeGLA" target="_blank" rel="noopener noreferrer">https://github.com/mikeGLA</a>
                 </div>
               </div>

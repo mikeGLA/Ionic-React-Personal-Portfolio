@@ -4,6 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import Home from './HomePage/Home';
 import NavBar from './NavBar/NavBar';
 import Education from './Education/Education';
+import Experience from './Experience/Experience';
 
 
 /* Core CSS required for Ionic components to work properly */
@@ -25,6 +26,7 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css'
 
+
 setupIonicReact();
 
 const App: React.FC = () => (
@@ -40,6 +42,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/education">
           <Education/>
+        </Route>
+        <Route exact path="/experience">
+          <Experience/>
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
