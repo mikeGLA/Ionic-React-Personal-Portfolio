@@ -18,14 +18,29 @@
     justify-content: space-evenly;
 }
 
-.PTTimeline{
+.PTTimeline-Index{
     border: 1px solid red;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 700px;
+    text-align: left;
+    text-indent: 2px;
+    letter-spacing: 1px;
 }
 
-.CodingTimeline{
+.CodingTimeline-Index{
     border: 1px solid blue;
-    width: 500px;
+    width: 400px;
     height: 500px;
+    text-align: left;
+    text-indent: 2px;
+    letter-spacing: 1px;
+}
+
+.FreelancerTimeline-Index{
+    border: 1px solid yellow;
+    width: 400px;
+    height: 500px;
+    text-indent: 2px;
+    letter-spacing: 1px;
+    text-align: left;
 }

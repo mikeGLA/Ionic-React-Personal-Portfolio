@@ -1,4 +1,4 @@
-import { IonApp, IonContent, IonIcon, IonPage } from '@ionic/react'
+import { IonApp, IonContent, IonHeader, IonIcon, IonItem, IonMenu, IonPage, IonTitle, IonToolbar } from '@ionic/react'
 import React from 'react'
 import "./Education.css"
 import HTMLLogo from "../img/logo/html-5.png"
@@ -9,6 +9,7 @@ import IONLogo from "../img/logo/Ionic.png"
 import PTLogo from "../img/logo/physical.png"
 import DARALogo from "../img/logo/Dara.jpg"
 import CMULogo from "../img/logo/cmu.png"
+import { IonReactMemoryRouter } from '@ionic/react-router'
 
 const Education = () => {
   return (
@@ -88,6 +89,18 @@ const Education = () => {
                     </div>
                 </div>
             </IonContent>
+            {/* <IonMenu side="end" type="push">
+                    <IonHeader>
+                        <IonToolbar color="danger">
+                            <IonTitle>E kuy Fai Na hee</IonTitle>
+                        </IonToolbar>
+                    </IonHeader>
+                    <IonContent>
+                        <IonItem>E here</IonItem>
+                        <IonItem>E sud</IonItem>
+                        <IonItem>E Kuy</IonItem>
+                    </IonContent>
+                </IonMenu> */}
         </IonPage>
     </>
   )
