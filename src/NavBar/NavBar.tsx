@@ -30,6 +30,7 @@ const NavBar = () => {
       <IonButton routerLink="/home" className={biographyBut} onClick={bioclick}><p>Biography</p></IonButton>
       <IonButton routerLink='/education' className={educateBut} onClick={educateclick}><p>Education & Skill</p></IonButton>
       <IonButton routerLink='/experience' className={experienceBut} onClick={experienceclick}><p>Experience</p></IonButton>
+      
     </IonHeader>
   )
 }

@@ -12,35 +12,49 @@
     margin-top: 60px;
 }
 
-.WorkTimeline-Index{
+.SwiperCenterFix{
+    /* border: 1px solid magenta; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
 
 .PTTimeline-Index{
     border: 1px solid red;
     width: 400px;
     height: 700px;
-    text-align: left;
     text-indent: 2px;
     letter-spacing: 1px;
+    text-align: left;
+    margin-left: 40%;
 }
 
-.CodingTimeline-Index{
-    border: 1px solid blue;
-    width: 400px;
-    height: 500px;
+/* .PTTimeline-Body{
     text-align: left;
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+} */
+
+
+
+.CodingTimeline-Index{
+    /* border: 1px solid blue; */
+    width: 400px;
+    height: 700px;
     text-indent: 2px;
     letter-spacing: 1px;
+    text-align: left;
+    margin-left: 43%;
 }
 
 .FreelancerTimeline-Index{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 400px;
-    height: 500px;
+    height: 700px;
     text-indent: 2px;
     letter-spacing: 1px;
     text-align: left;
+    margin-left: 43%;
 }
